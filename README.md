@@ -4,7 +4,7 @@
 There are few requirements needed to run this program:
 
 * Mac(Unix)/Linux
-* Java 8
+* Java 8 or Higher
 * JSON.simple (External Library: jar file) [Link to Download JAR](https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple/1.1.1)
 
 ## Project Setup
