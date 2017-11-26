@@ -12,20 +12,21 @@ To setup the program, please follow these steps:
 
 1. Clone repository or Download Project
 2. Ensure that the '**json-simple-1.1.1.jar**' (JSON.simple) external library is in the project directory. If not, download it from the link above and place it in the project directory. The compile command will compile with the classpath of the required external library.
-3. '**cd**' into project directory
+3. '**cd**' into project directory. Essentially where the project folder exists. 
 4. If you are on the COF network, ensure that your proxy is on before running the program. If not on the COF network, do NOT turn on your proxy. Depending on the network, your data files will not be downloaded and the program will not work. 
 
 ## Running the Program
 To run the program, follow these steps:
  
-1. Run the command '**./runApp.sh**'
-2. When prompted, type the Ticker Names of the securities/companies you are interested in and press enter. For this coding test, use 'cof googl msft'.
-3. When prompted, type the additional features that you would like to run and press enter. For this coding test, the choices include:
+1. Run the command '**chmod 777 runApp.sh**' so that the program is executable
+2. Run the command '**./runApp.sh**'
+3. When prompted, type the Ticker Names of the securities/companies you are interested in and press enter. For this coding test, use 'cof googl msft'.
+4. When prompted, type the additional features that you would like to run and press enter. For this coding test, the choices include:
    * **--help**
    * **daily-max-profit**
    * **busy-day**
    * **biggest-loser**
-4. When prompted, type either 'yes' or 'no' if you would like to download the data files? If running for the first time, you should download the files. You should also re-download the files if any arguments are changed from the last run of the program.
+5. When prompted, type either 'yes' or 'no' if you would like to download the data files? If running for the first time, you should download the files. You should also re-download the files if any arguments are changed from the last run of the program.
    
 NOTE: Running '**./runApp.sh**' will automatically compile the necessary Java files to run the Java portion of the program. You will NOT need to compile the program yourself.
    
