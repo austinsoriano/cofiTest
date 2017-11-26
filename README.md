@@ -25,8 +25,9 @@ To run the program, follow these steps:
    * **daily-max-profit**
    * **busy-day**
    * **biggest-loser**
+4. When prompted, type either 'yes' or 'no' if you would like to download the data files? If running for the first time, you should download the files.
    
 NOTE: Running '**./runApp.sh**' will automatically compile the necessary Java files to run the Java portion of the program. You will NOT need to compile the program yourself.
    
 ## How It Works
-The program will read from the bash script the user inputs (securities/companies to use and additional features to run), then use the provided Quandl WIKI Stock Price API to download the data into JSON files. From there, the script will compile and run the provided Java program, which will sort the data and make calculations on the data to provide the required output. 
+The program will read from the bash script the user inputs (securities/companies to use, additional features to run, and download/re-download the files), then use the provided Quandl WIKI Stock Price API to download the data into JSON files if selecting to do so. From there, the script will compile and run the provided Java program, which will sort the data and make calculations on the data to provide the required output. 
