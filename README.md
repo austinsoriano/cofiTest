@@ -1,7 +1,7 @@
 # COFI Coding Test (Quandl WIKI Stock Price Program)
 
-## System Requirements
-There are two requirements needed to run this program:
+## Requirements
+There are few requirements needed to run this program:
 
 * Mac(Unix)/Linux
 * Java 8
