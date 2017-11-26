@@ -11,7 +11,8 @@ There are few requirements needed to run this program:
 To setup the program, please follow these steps:
 
 1. Clone repository or Download Project
-2. '**cd**' into project directory
+2. Ensure that the 'json-simple-1.1.1.jar' (JSON.simple) external library is in the project directory. If not, download it from the link above and place it in the project directory. The compile command will compile with the classpath of the required external library.
+3. '**cd**' into project directory
 
 ## Running the Program
 To run the program, follow these steps:
