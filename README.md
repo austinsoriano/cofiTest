@@ -11,8 +11,9 @@ There are few requirements needed to run this program:
 To setup the program, please follow these steps:
 
 1. Clone repository or Download Project
-2. Ensure that the 'json-simple-1.1.1.jar' (JSON.simple) external library is in the project directory. If not, download it from the link above and place it in the project directory. The compile command will compile with the classpath of the required external library.
+2. Ensure that the '**json-simple-1.1.1.jar**' (JSON.simple) external library is in the project directory. If not, download it from the link above and place it in the project directory. The compile command will compile with the classpath of the required external library.
 3. '**cd**' into project directory
+4. If you are on the COF network, ensure that your proxy is on before running the program. If not on the COF network, do NOT turn on your proxy. Depending on the network, your data files will not be downloaded and the program will not work. 
 
 ## Running the Program
 To run the program, follow these steps:
