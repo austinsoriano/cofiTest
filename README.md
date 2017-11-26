@@ -25,7 +25,7 @@ To run the program, follow these steps:
    * **daily-max-profit**
    * **busy-day**
    * **biggest-loser**
-4. When prompted, type either 'yes' or 'no' if you would like to download the data files? If running for the first time, you should download the files.
+4. When prompted, type either 'yes' or 'no' if you would like to download the data files? If running for the first time, you should download the files. You should also re-download the files if any arguments are changed from the last run of the program.
    
 NOTE: Running '**./runApp.sh**' will automatically compile the necessary Java files to run the Java portion of the program. You will NOT need to compile the program yourself.
    
